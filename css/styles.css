@@ -48,6 +48,10 @@ html {
     background-color: #9F2C86;
 }
 
+a {
+    color: #FCEDC1;
+}
+
 .parent-center {
     display: flex;
     align-items: center;
