@@ -72,13 +72,37 @@ html {
 .title {
     font-family: pixaboy;
     color: #fff;
-    color: #fff
 }
 
 .heading {
     font-family: pixaboy;
     color: #fff;
-    color: #fff
+}
+
+.button {
+    font-family: pixaboy;
+    display: block;
+    width: 30%;
+    padding: 4px;
+    margin: 40px auto;
+    text-align: center;
+    font-size: 5vw;
+    text-decoration: none;
+}
+
+.button-register {
+    background: #FCEDC1;
+    border: #E29449 8px solid;
+    color: #E29449;
+}
+
+.button-mentor {
+    width: 25%;
+    font-size: 4.5vw;
+    background: #DAABB0;
+    border: #C54A5C 8px solid;
+    color: #C54A5C;
+    margin-bottom: 100px;
 }
 
 #registration-button {
@@ -243,9 +267,20 @@ strong {
         max-height: 50vw;
         width: auto;
     }
-    #actualButton {
-        width: 70vw;
-        height: auto;
+    .button {
+        width: 50%;
+    }
+    .button-mentor {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .button {
+        width: 80%;
+    }
+    .button-mentor {
+        width: 70%;
     }
 }
 
