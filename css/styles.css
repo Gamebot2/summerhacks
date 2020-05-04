@@ -96,6 +96,12 @@ html {
     color: #E29449;
 }
 
+.button-register:hover {
+    background: #E29449;
+    border: #FCEDC1 8px solid;
+    color: #FCEDC1;
+}
+
 .button-mentor {
     width: 25%;
     font-size: 4.5vw;
@@ -103,6 +109,12 @@ html {
     border: #C54A5C 8px solid;
     color: #C54A5C;
     margin-bottom: 100px;
+}
+
+.button-mentor:hover {
+    background: #C54A5C;
+    border: #DAABB0 8px solid;
+    color: #DAABB0;
 }
 
 #registration-button {
