@@ -163,6 +163,12 @@ strong {
     width: 100%
 }
 
+#calendar {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 @media all and (min-width:1024px) {
     .conditional-no-margin-top {
         margin-top: 0
